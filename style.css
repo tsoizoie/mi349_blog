@@ -63,6 +63,10 @@ p{
     float: right;
 }
 
+.profile{
+    width: 300px;
+}
+
 form{
     line-height: 2em;
 }
@@ -102,3 +106,4 @@ th{
 td{
     padding-right: 30px;
 }
+
