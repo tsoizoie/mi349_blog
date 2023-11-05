@@ -56,11 +56,16 @@ p{
     border-bottom: 1px dotted #513517;
 }
 
+#picture{
+    float: right;
+    font-size: 12px;
+    text-align: right;
+}
+
 .center{
     display: block;
-    margin: auto;
+    margin: 10px;
     width: 500px;
-    float: right;
 }
 
 .profile{
