@@ -71,7 +71,7 @@ form{
     line-height: 2em;
 }
 
-#label{
+label{
     display: inline-block;
     width: 80px;
     text-align: left;
