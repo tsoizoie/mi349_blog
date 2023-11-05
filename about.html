@@ -4,33 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Analyzing Media - About</title>
+    <link rel="stylesheet" href="style.css">
+    <title>Analyzing Media</title>
   </head>
   <body>
+    <nav>
+        <a href = "index.html" target = "_self">Home</a>
+        <a href = "about.html" target = "_self">About</a>
+        <a href = "contact.html" target = "_self">Contact</a>
+    </nav>
     <header>
-        <nav>
-            <a href = "index.html">Home</a>
-            <a href = "about.html">About</a>
-            <a href = "contact.html">Contact</a>
-        </nav>
         <h1>Analyzing Media</h1>
         <p>A blog that explores the themes in different types of media.</p>
     </header>
     <main>
-      <p><img alt = "Image of Zoie Tsoi" src = "Zoie Tsoi Picture.png" width = 250px/></p>
+      <div class = "Parent">
+        <div class = "child1">
         <h2>About Zoie Tsoi</h2>
         <p>I am not a media expert, in any way.</p>
         <p>My whole life has been about creating media. I am a dancer, an artist, a programmer, a designer, and much more. I love watching movies and I love editing.</p>
         <p>This blog is a way for me to talk about all my favorite things and my thoughts on media. Movies have always been a big part of my life. I used to grow up with movie nights every Saturday and I dreamed of being in the film production industry one day. Nowadays, I am studying Games and Interactive Media, hoping to be in the game programming field.</p>
-        
-        <h3>My Works:</h3>
-        <nav>
+        <nav id = "works">
+          <h3>My Works:</h3>
             <ul>
                 <li><address><a href = "https://sites.google.com/view/zoietsoi/home">Portfolio</a></address></li>
                 <li><address><a href = "https://sites.google.com/view/zoietsoi/ap-art-portfolio?authuser=0">Art Series on Escapism</a></address></li>
                 <li><address><a href = "https://zoietsoi.itch.io/">Created Games</a></address></li>
             </ul>
         </nav>
+        </div>
+
+        <div class = "child2">
+          <p><img alt = "Image of Zoie Tsoi" src = "Zoie Tsoi Picture.png" width = 250px/></p>
+        </div>
+      </div>
     </main>
   </body>
 </html>

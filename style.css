@@ -1,0 +1,96 @@
+html{
+    background: #E1D8D4;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 10%;
+    padding: 20px;
+    color: #513517;
+    border-top: 5px solid #513517;
+    background-color: #F6F3F1; 
+}
+
+nav{
+    margin: 0px;
+    padding: 0px;
+    display: block;
+    width: auto;
+    background-color: #F6F3F1;
+    padding: 10px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+#works{
+    text-align: left;
+}
+
+
+a[target]{
+    width: 120px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+
+header{
+    line-height: 3em;
+}
+
+h1{
+    font-size: 3em;
+    margin: 0;
+}
+
+p{
+    line-height: 1.4em;
+}
+
+#blog{
+    border-top: 1px dotted #513517;
+}
+
+.blog-post{
+    border-bottom: 1px dotted #513517;
+}
+
+.center{
+    display: block;
+    margin: auto;
+    width: 500px;
+    float: right;
+}
+
+form{
+    line-height: 2em;
+}
+
+#label{
+    display: inline-block;
+    width: 80px;
+    text-align: left;
+}
+
+form input{
+    width: 30%;
+}
+
+form textarea{
+    width: 30%;
+}
+
+.Parent{
+    display: flex;
+    flex-direction: row;
+}
+
+.child1{
+    width: 50%;
+    margin-right: 30px;
+}
+
+.child2{
+    width: 50%;
+}
