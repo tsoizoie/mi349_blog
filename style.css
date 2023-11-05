@@ -56,7 +56,7 @@ p{
     border-bottom: 1px dotted #513517;
 }
 
-#picture{
+.picture{
     float: right;
     font-size: 12px;
     text-align: right;
