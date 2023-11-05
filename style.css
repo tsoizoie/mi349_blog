@@ -94,3 +94,11 @@ form textarea{
 .child2{
     width: 50%;
 }
+
+th{
+    padding-right: 30px;
+}
+
+td{
+    padding-right: 30px;
+}
